@@ -4,93 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BHRMS</title>
-    <link rel="shortcut icon" href="imgs/384543871_724787162797310_8734564214874848058_n-removebg-preview.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="shortcut icon" href="384543871_724787162797310_8734564214874848058_n-removebg-preview.png" type="image/x-icon">
+
 </head>
 <body>
-     <!--Navigation-->
-     <nav>
-        <div class="navigation">
-            <img class="logo" src="imgs/2.png" alt="Logo">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </div>
-        </div>
-        <div class="top"></div>
-    </nav>
-    <!--Main-->
-    <main>
-        <div class="design">
+    <header>
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+              <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    
+                  <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+                </a>
+              </div>
+        
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2">Features</a></li>
+                <li><a href="#" class="nav-link px-2">Contact</a></li>
+              </ul>
+              <div class="col-md-3 text-end">
+              </div>
+            </header>
+            <main>
+                <div class="px-4 py-5 my-5 text-center">
+                    <img class="d-block mx-auto mb-4" src="2.png" alt="" width="72" height="58">
+                    <h1 class="display-5 fw-bold text-body-emphasis">Barangay Health Management System</h1>
+                    <div class="col-lg-6 mx-auto">
+                      <p class="lead mb-4">Contributes to a better healthcare services, public health monitoring and overall well-being</p>
+                      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Login</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container px-4 py-5" id="icon-grid">
+                    <h2 class="pb-2 border-bottom">Features</h2>
+                
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                      <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+                        <div>
+                          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Patient Demographics</h3>
+                          <p>Captures and stores patient demographic information</p>
+                        </div>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+                        <div>
+                          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Appointment and Scheduling</h3>
+                          <p>Schedule appointments, get an automated confirmation and reminders.</p>
+                        </div>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+                        <div>
+                          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Health Records</h3>
+                          <p>Creates and stores health records for the residents</p>
+                        </div>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+                        <div>
+                          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Immunization Tracking</h3>
+                          <p>Keep records of vaccinations and immunization schedules for children and adults.</p>
+                        </div>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+                        <div>
+                          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Maternal and Child Health Records</h3>
+                          <p>Record information related to prenatal care, childbirth, infant and child health, and family planning</p>
+                        </div>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+                        <div>
+                          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Medical Management</h3>
+                          <p>Record prescribed medications, dosages, adherence, and treatment plans.</p>
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container my-5">
+                    <div class="p-5 text-center bg-body-tertiary rounded-3">
+                      <h1 class="text-body-emphasis">Contact</h1>
+                      <p class="lead">
+                        Barangay Health Service <br>
+                        09123456789
+                      </p>
+                    </div>
+                  </div>
+            </main>
+          <footer>
             <div class="container">
-                <div class="text">
-                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                     </h2>
-                    <h2>BARANGAY HEALTH RECORD MANAGEMENT SYSTEM</h2>
-                    <h4><i>contributes to better healthcare services
-                        public health monitoring and overall community well-being</i></h4>
-                        <h3>&nbsp;</h3>
-                         </h2><button type="button">Login</button>
-                         <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                         </h2>
-                </div>
-            </div>
-        </div>
-        <!--Features-->
-        <div class="features">
-            <div class="container">
-               <div class="ft">
-                <h2>Features</h2>
-                <h3>Patient Demographics</h3>
-                <h4>Captures and stores patient demographic information</h4>
-                <h3>Appointment and Scheduling</h3>
-                <h4>Schedule appointments, get an automated confirmation and reminders</h4>
-                <h3>Health Records</h3>
-                <h4>Creates and stores health records for the residents</h4>
-                <h3>Immunization Tracking</h3>
-                <h4>Keep records of vaccinations and immunization schedules for children and adults.</h4>
-                <h3>Maternal and Child Health Records</h3>
-                <h4>Record information related to prenatal care, childbirth, infant and child health, and family planning</h4>
-                <h3>Medical Management</h3>
-                <h4>Record prescribed medications, dosages, adherence, and treatment plans.</h4>
-                <button type="button" >others..</button>             
-               </div>
-            </div>
-        </div>
-        <!--Contact-->
-        <div class="contact">
-            <div class="container">
-                <div class="info">
-                    <h2>Contact Us</h2>
-                    <h4>Barangay Health Service<br>
-                        09123456789</h4>
-                </div>
-            </div>
-        </div>
-        <!--Footer-->
-        <div class="footer">
-            <div class="container">
-                <div class="foot">
-                  <h3>All rights reserved © 2024</h3>
-            </div>
-        </div>
-    </main>
+                <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                  <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                    </a>
+                    <p class="text-body-secondary"> All rights reserved &copy; 2023</p>
+                  </div>
+              
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
 <!-- Code injected by live-server -->
 <script>
 	// <![CDATA[  <-- For SVG support
@@ -131,4 +155,3 @@
 </script>
 </body>
 </html>
- 
