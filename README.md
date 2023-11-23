@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +67,6 @@
           </div>
         </div>  
       </div>
-      
         <div class="container px-4 py-5" id="features">
             <h2 class="pb-2 border-bottom">Features</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 ">
@@ -117,7 +115,6 @@
               </div>
               </div>
             </div>
-          </div>
           <div class="px-4 py-5 my-5 text-center" id="contact">
             <img class="d-block mx-auto mb-4" src="imgs/384543871_724787162797310_8734564214874848058_n-removebg-preview.png" alt="logo" width="72" height="57">
             <h1 class="display-5 fw-bold text-body-emphasis">CONTACT US</h1>
@@ -144,7 +141,6 @@
             </a>
             <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Company, Inc</span>
           </div>
-      
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
             <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
